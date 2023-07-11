@@ -1,0 +1,34 @@
+{
+	"name": "my-gulp-taskrunner",
+	"version": "1.0.0",
+	"description": "This repository contains a set of settings for the initial initialization of tools exclusively for the layout of simple projects (one-page websites, landing pages, etc.) without the use of JS libraries and frameworks.",
+	"main": "gulpfile.js",
+	"type": "module",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sl1mwuq/my-gulp-taskrunner.git"
+	},
+	"author": "sl1mwuq",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/sl1mwuq/my-gulp-taskrunner/issues"
+	},
+	"homepage": "https://github.com/sl1mwuq/my-gulp-taskrunner#readme",
+	"devDependencies": {
+		"browser-sync": "^2.29.3",
+		"del": "^7.0.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-file-include": "^2.3.0",
+		"gulp-group-css-media-queries": "^1.2.2",
+		"gulp-pretty-html": "^2.0.10",
+		"gulp-rename": "^2.0.0",
+		"gulp-replace": "^1.1.4",
+		"gulp-sass": "^5.1.0",
+		"sass": "^1.63.6",
+		"webpack": "^5.88.1",
+		"webpack-stream": "^7.0.0"
+	}
+}
