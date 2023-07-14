@@ -22,8 +22,8 @@ function watcher () {
 	gulp.watch(path.watch.images, images)
 }
 
-const tasks = gulp.parallel(layouts, styles, scripts, images),
-		dev = gulp.series(reset, tasks, gulp.parallel(watcher, server)),
-		build = gulp.series(reset, tasks)
+const tasks = gulp.parallel(layouts, styles, scripts, images)
+const dev = gulp.series(reset, tasks, gulp.parallel(watcher, server))
+const build = gulp.series(reset, tasks)
 
 export { dev, build }

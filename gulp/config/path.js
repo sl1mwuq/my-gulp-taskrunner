@@ -1,5 +1,5 @@
-const devFolder = './dev',
-		buildFolder = './build'
+const devFolder = './dev'
+const buildFolder = './build'
 
 export const path = {
 	dev: {
