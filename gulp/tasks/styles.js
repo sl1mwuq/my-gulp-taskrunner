@@ -8,8 +8,8 @@ import groupCssMediaQueries from 'gulp-group-css-media-queries'
 const sass = gulpSass(dartSass)
 
 export const styles = () => {
-	return app.gulp.src(app.path.src.styles, { sourcemaps: true })
-		.pipe(app.plugins.replace(/@img\//g, '../img/'))
+	return app.gulp.src(app.path.dev.styles, { sourcemaps: true })
+		.pipe(app.plugins.replace(/@images\//g, '../images/'))
 		.pipe(sass({ 
 			outputStyle: 'compressed'
 		 }))
@@ -19,7 +19,7 @@ export const styles = () => {
 			overrideBrowserlist: ['last 3 versions'],
 			cascade: true
 		}))
-		.pipe(cleanCss()) /* If you don`t want to constrict css-files: .pipe(app.gulp.dest(app.path.build.css)) */
+		.pipe(cleanCss()) /* If you don`t want to constrict css-files: .pipe(app.gulp.dest(app.path.build.styles)) */
 		.pipe(rename({ 
 			extname: '.min.css' 
 		}))

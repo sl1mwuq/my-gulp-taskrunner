@@ -1,7 +1,7 @@
 import webpack from 'webpack-stream'
 
 export const scripts = () => {
-	return app.gulp.src(app.path.src.scripts, { sourcemaps: true })
+	return app.gulp.src(app.path.dev.scripts, { sourcemaps: true })
 		.pipe(webpack({
 			mode: 'development',
 			output: {

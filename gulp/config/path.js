@@ -1,27 +1,28 @@
-const srcFolder = './src'
-const buildFolder = './dist'
+const devFolder = './dev',
+		buildFolder = './build'
 
 export const path = {
-	src: {
-		html: `${srcFolder}/pages/*.html`,
-		styles: `${srcFolder}/styles/main.scss`,
-		scripts: `${srcFolder}/scripts/main.js`,
-		images: `${srcFolder}/assets/images/**/*.{ jpg, jpeg, png, gif, webp }`,
-		icons: `${srcFolder}/assets/icons/**/*.svg`
+	dev: {
+		layouts: `${devFolder}/layouts/pages/*.html`,
+		styles: `${devFolder}/styles/main.scss`,
+		scripts: `${devFolder}/scripts/main.js`,
+		images_raster: `${devFolder}/images/raster/**/*.{jpg,jpeg,png,gif,webp,ico}`,
+		images_vector: `${devFolder}/images/vector/**/*.svg`
 	},
 	build: {
-		html: `${buildFolder}/`,
+		layouts: `${buildFolder}/`,
 		styles: `${buildFolder}/styles/`,
 		scripts: `${buildFolder}/scripts/`,
-		assets: `${buildFolder}/assets/`
+		images: `${buildFolder}/images/`
 	},
 	watch: {
-		html: `${srcFolder}/pages/**/*.html`,
-		styles: `${srcFolder}/styles/**/*.scss`,
-		scripts: `${srcFolder}/scripts/**/*.*js`,
-		assets: `${srcFolder}/assets/**/*.{ jpg, jpeg, png, gif, webp, svg, ico }`
+		layouts: `${devFolder}/layouts/**/*.html`,
+		styles: `${devFolder}/styles/**/*.scss`,
+		scripts: `${devFolder}/scripts/**/*.js`,
+		images: `${devFolder}/images/**/*.{jpg,jpeg,png,gif,webp,svg,ico}`
 	},
+	server: `${buildFolder}/`,
 	clean: buildFolder,
-	srcFolder: srcFolder,
+	devFolder: devFolder,
 	buildFolder: buildFolder
 }

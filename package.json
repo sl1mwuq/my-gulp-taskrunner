@@ -4,7 +4,10 @@
 	"description": "This repository contains a set of settings for the initial initialization of tools exclusively for the layout of simple projects (one-page websites, landing pages, etc.) without the use of JS libraries and frameworks.",
 	"main": "gulpfile.js",
 	"type": "module",
-	"scripts": {},
+	"scripts": {
+		"dev": "gulp dev",
+		"build": "gulp build"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/sl1mwuq/my-gulp-taskrunner.git"
@@ -23,6 +26,8 @@
 		"gulp-clean-css": "^4.3.0",
 		"gulp-file-include": "^2.3.0",
 		"gulp-group-css-media-queries": "^1.2.2",
+		"gulp-imagemin": "^8.0.0",
+		"gulp-newer": "^1.4.0",
 		"gulp-pretty-html": "^2.0.10",
 		"gulp-rename": "^2.0.0",
 		"gulp-replace": "^1.1.4",

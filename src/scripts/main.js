@@ -1,1 +1,0 @@
-import * as getters from './modules/getters.js'
