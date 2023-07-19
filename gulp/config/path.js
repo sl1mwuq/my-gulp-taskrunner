@@ -6,8 +6,8 @@ export const path = {
 		layouts: `${devFolder}/layouts/pages/*.html`,
 		styles: `${devFolder}/styles/main.scss`,
 		scripts: `${devFolder}/scripts/main.js`,
-		images_raster: `${devFolder}/images/raster/**/*.{jpg,jpeg,png,gif,webp,ico}`,
-		images_vector: `${devFolder}/images/vector/**/*.svg`
+		images_raster: `${devFolder}/images/**/*.{jpg,jpeg,png,gif,webp,ico}`,
+		images_vector: `${devFolder}/images/**/*.svg`
 	},
 	build: {
 		layouts: `${buildFolder}/`,
