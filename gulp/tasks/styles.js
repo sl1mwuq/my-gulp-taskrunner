@@ -19,7 +19,6 @@ export const styles = () => {
 			overrideBrowserlist: ['last 3 versions'],
 			cascade: true
 		}))
-		
 		.pipe(cleanCss()) /* If you don`t want to constrict css-files: .pipe(app.gulp.dest(app.path.build.styles)) */
 		.pipe(rename({ 
 			extname: '.min.css' 
