@@ -2,7 +2,7 @@
 
 ##
 
-### What set of actions does taskscanner simplify?
+### What set of actions does taskrunner simplify?
 1. Organized component layout approach both in the structure of the catalog system and with the help of additional plugins that allow you to **import / export** parts of **html / css / js** code and reuse them.
 1. The **SCSS preprocessor** speeds up stylesheet writing with element nesting and additional features like mixins and loops, and performs browser optimization by prefixing properties and minifying media queries into one.
 1. There is an optimization of raster images and a simplified way to search for them, using the method of the custom alias **@images**.
