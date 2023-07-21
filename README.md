@@ -32,7 +32,7 @@ npm install
 \
 Download the plugin [**Path Autocomplete**](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete) in your **IDE** to create custom paths using the alias method. After downloading the plugin, go to the **user settings json** file in your **IDE** and paste this code snippet at the end:
 
-```
+```url
 // This alias will allow you to use a shortcut to images folder wherever you are
 "path-autocomplete.pathMappings": {
 	"@images": "${folder}/dev/images/"
