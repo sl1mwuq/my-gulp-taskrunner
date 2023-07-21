@@ -13,7 +13,7 @@
 ### How to install taskrunner?
 To begin with, you need to have installed [**NodeJS**](https://nodejs.org/en) and [**git**](https://git-scm.com/downloads). Then clone the repository to your device using any method convenient for you (`SSH` or `HTTPS`):
 
-```ruby
+```console
 git clone [SSH or HTTPS link]
 ```
 
