@@ -72,7 +72,7 @@ dev
 ```
 
 \
-Images of the following formats can be entered into the `images` folder: `jpg`, `jpeg`, `png`, `gif`, `webp`, `ico`, `svg`. If you want to refer to any picture from the images folder, being in the layout html-file or scss-style file, write the following path: **'@images/[path]'**.
+Images of the following formats can be entered into the `images` folder: `jpg`, `jpeg`, `png`, `gif`, `webp`, `ico`, `svg`. If you want to refer to any picture from the images folder, being in the layout `HTML-file` or `SCSS-file` file, write the following path: **'@images/[path]'**.
 
 ```
 dev
@@ -118,7 +118,11 @@ dev
 ```
 
 \
-Папка `styles` - джерело усіх стилів для проекту. Для більшої зручності, стилі сторінок та окремих компонентів було розділено по папках `components` та `pages`. Для зручності також були додані 3 основні утиліти: `mixins.scss`, `variables.scss` та `normalize.scss`. 
+Папка `styles` - джерело усіх стилів для проекту. Для більшої зручності, стилі сторінок та окремих компонентів було розділено по папках `components` та `pages`. Для зручності також були додані 3 основні утиліти: `mixins.scss`, `variables.scss` та `normalize.scss`. Файл `mixins.scss` містить функції для пришвидшення роботи при стилізації. `variables.scss` складається з переліку змінних кольорів, брейкпоінтів, шрифтів і тд. Файл `normalize.scss` імпортує попередні два та обнуляє частину стилів для комфортної роботи у сучасних браузерах. Усі стилі сторінок чи компонентів підключаються в основному файлі стилів `main.scss`.
+
+> **Note**
+> Важливим моментом є підключення файлу `normalize.scss` до кожного файлу стилів з самого початку для роботи усього функціоналу: **@import '../utils/normalize.scss';**.
+
 
 ```
 dev
