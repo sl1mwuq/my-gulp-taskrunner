@@ -57,7 +57,7 @@ npm run build
 
 ##
 
-### How to properly scale an assembly relative to project requirements?
+### What is the structure of the repository?
 
 First of all, the directory structure of the development looks like this:
 
