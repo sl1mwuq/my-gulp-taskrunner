@@ -120,8 +120,7 @@ dev
 \
 The `styles` folder is the source of all styles for the project. For greater convenience, page styles and individual components have been separated into `components` and `pages` folders. Also added 3 main utilities for convenience: `mixins.scss`, `variables.scss` and `normalize.scss`. The `mixins.scss` file contains functions to speed up styling. `variables.scss` consists of a list of variable colors, breakpoints, fonts, etc. The `normalize.scss` file imports the previous two and resets part of the styles for comfortable work in modern browsers. All page or component styles are linked in the main styles file `main.scss`.
 
-> **Warning**  
->
+> **Warning**
 > The important point is to link the `normalize.scss` file to each style file from the start for all functionality to work: **@import '../utils/normalize.scss';**.
 
 ```
