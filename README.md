@@ -118,11 +118,11 @@ dev
 ```
 
 \
-Папка `styles` - джерело усіх стилів для проекту. Для більшої зручності, стилі сторінок та окремих компонентів було розділено по папках `components` та `pages`. Для зручності також були додані 3 основні утиліти: `mixins.scss`, `variables.scss` та `normalize.scss`. Файл `mixins.scss` містить функції для пришвидшення роботи при стилізації. `variables.scss` складається з переліку змінних кольорів, брейкпоінтів, шрифтів і тд. Файл `normalize.scss` імпортує попередні два та обнуляє частину стилів для комфортної роботи у сучасних браузерах. Усі стилі сторінок чи компонентів підключаються в основному файлі стилів `main.scss`.
+The `styles` folder is the source of all styles for the project. For greater convenience, page styles and individual components have been separated into `components` and `pages` folders. Also added 3 main utilities for convenience: `mixins.scss`, `variables.scss` and `normalize.scss`. The `mixins.scss` file contains functions to speed up styling. `variables.scss` consists of a list of variable colors, breakpoints, fonts, etc. The `normalize.scss` file imports the previous two and resets part of the styles for comfortable work in modern browsers. All page or component styles are linked in the main styles file `main.scss`.
 
 > **Note**
-> Важливим моментом є підключення файлу `normalize.scss` до кожного файлу стилів з самого початку для роботи усього функціоналу: **@import '../utils/normalize.scss';**.
-
+>
+> The important point is to link the `normalize.scss` file to each style file from the start for all functionality to work: **@import '../utils/normalize.scss';**.
 
 ```
 dev
