@@ -13,7 +13,7 @@
 ### How to install taskrunner?
 To begin with, you need to have installed [**NodeJS**](https://nodejs.org/en) and [**git**](https://git-scm.com/downloads). Then clone the repository to your device using any method convenient for you (`SSH` or `HTTPS`):
 
-```
+```console
 // Use SSH
 git clone git@github.com:sl1mwuq/my-gulp-taskrunner.git
 
@@ -25,14 +25,14 @@ git clone https://github.com/sl1mwuq/my-gulp-taskrunner.git
 
 \
 Then initialize the project and load the node modules:
-```url
+```console
 npm install
 ```
 
 \
 Download the plugin [**Path Autocomplete**](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete) in your `IDE` to create custom paths using the alias method. After downloading the plugin, go to the `user settings json` file in your IDE and paste this code snippet at the end:
 
-```url
+```console
 // This alias will allow you to use a shortcut to images folder wherever you are
 "path-autocomplete.pathMappings": {
 	"@images": "${folder}/dev/images/"
@@ -45,13 +45,13 @@ You can start the build process with change tracking enabled in the project dire
 \
 If you want to start development:
 
-```
+```console
 npm run dev
 ```
 
 \
 If you have finished the development and want to assemble the project:
-```
+```console
 npm run build
 ```
 
