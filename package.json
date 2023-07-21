@@ -1,7 +1,7 @@
 {
 	"name": "my-gulp-taskrunner",
 	"version": "1.0.0",
-	"description": "This repository contains a set of settings for the initial initialization of tools exclusively for the layout of simple projects (one-page websites, landing pages, etc.) without the use of JS libraries and frameworks.",
+	"description": "Is a repository designed to automate routine actions and increase the efficiency of the layout process",
 	"main": "gulpfile.js",
 	"type": "module",
 	"scripts": {
